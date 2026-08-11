@@ -1,0 +1,45 @@
+/* CSS Reset 2026 */
+
+@import "tailwindcss";
+
+@layer base {
+  /* Permite animar height: auto sin JavaScript */
+  @media (prefers-reduced-motion: no-preference) {
+    html {
+      interpolation-size: allow-keywords;
+    }
+  }
+
+  /* Control de scroll y rebote visual */
+  html {
+    scrollbar-gutter: stable;
+    overscroll-behavior: contain;
+  }
+
+  /* Tipografía inteligente por defecto */
+  p {
+    text-wrap: pretty;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    text-wrap: balance;
+  }
+
+  /* Evita desbordamientos indeseados en Flexbox / Grid */
+  * {
+    min-width: 0;
+  }
+
+  /* Viewport moderno y suavizado de fuentes */
+  body {
+    min-height: 100svh;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    isolation: isolate;
+  }
+
+  /* Evita deformaciones en SVG con dimensiones fijas (Lucide, Heroicons) */
+  svg[width][height] {
+    max-width: revert;
+  }
+}
