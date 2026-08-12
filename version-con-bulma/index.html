@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" data-theme="light">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,80 +13,78 @@
   <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
-<body>
-    <!-- whatsapp -->
-    <div class="level-right">
-        <a  href="https://wa.link/sl54z3" target="_blank" rel="noopener noreferrer" title="WhatsApp" class="whatsapp-float">
-            <figure class="image  is-48x48">
-                <img src="https://img.icons8.com/?size=100&id=BkugfgmBwtEI&format=png&color=000000" alt="WhatsApp" loading="lazy">
-            </figure>
-        </a>
-    </div>
-
+<body class="has-background-white">
     <header>
-        <!-- logo de la pagina y botones de carrito y perfil -->
-        <div class="level is-mobile px-4 py-2">
-            <div class="level-left">
-                <div class="level-item">
-                    <a href="index.html">
-                        <figure class="image is-64x64">
-                            <img src="Img/img-logos/img-logo-pagina/logo.png" alt="God Gaming">
-                        </figure>
-                    </a>
-                </div>
-            </div>
-
-            <div class="level-right">
-                <div class="level-item">
-                    <a href="#" class="icon is-medium has-text-dark mr-3" title="Carrito de compras">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" class="h-9 w-9 fill-current" aria-hidden="true">
-                            <path d="M223.5-103.5Q200-127 200-160t23.5-56.5Q247-240 280-240t56.5 23.5Q360-193 360-160t-23.5 56.5Q313-80 280-80t-56.5-23.5Zm400 0Q600-127 600-160t23.5-56.5Q647-240 680-240t56.5 23.5Q760-193 760-160t-23.5 56.5Q713-80 680-80t-56.5-23.5ZM246-720l96 200h280l110-200H246Zm-38-80h590q23 0 35 20.5t1 41.5L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68-39.5t-2-78.5l54-98-144-304H40v-80h130l38 80Zm134 280h280-280Z"/>
-                        </svg>
-                    </a>
-                </div>
-                
-                <div class="level-item">
-                    <a href="#" class="icon is-medium has-text-dark" title="Perfil de usuario">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" class="h-9 w-9 fill-current" aria-hidden="true">
-                            <path d="M480-480q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47ZM160-160v-112q0-34 17.5-62.5T224-378q62-31 126-46.5T480-440q66 0 130 15.5T736-378q29 15 46.5 43.5T800-272v112H160Z"/>
-                        </svg>
-                    </a>
-                </div>
-            </div>
-            
+    <nav class="navbar is-white" role="navigation" aria-label="Principal">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="index.html">
+          <img src="img/img-logos/img-logo-pagina/logo.png" alt="God Gaming" height="80">
+        </a>
       </div>
 
+      <div class="navbar-menu is-active">
+        <div class="navbar-start is-flex-grow-1">
+          <div class="navbar-item is-flex-grow-1">
+            <form role="search" class="is-flex-grow-1">
+              <label for="buscador" class="is-sr-only">Buscar productos</label>
+              <div class="control has-icons-left is-expanded">
+                <input
+                  id="buscador"
+                  type="search"
+                  placeholder="Buscar productos..."
+                  class="input"
+                >
+                <span class="icon is-left has-text-grey">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" width="20" height="20" fill="currentColor" aria-hidden="true">
+                    <path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/>
+                  </svg>
+                </span>
+              </div>
+            </form>
+          </div>
+        </div>
 
-        <!-- formulario de búsqueda -->
-        <form role="search" class="is-flex-grow-1" style="max-width: 400px; margin: 0 auto;">
-            <label for="buscador" class="is-sr-only">Buscar productos</label>
+        <div class="navbar-end">
+          <a href="#" class="navbar-item" aria-label="Carrito">
+            <span class="icon is-medium">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" width="36" height="36" fill="currentColor" aria-hidden="true">
+                <path d="M223.5-103.5Q200-127 200-160t23.5-56.5Q247-240 280-240t56.5 23.5Q360-193 360-160t-23.5 56.5Q313-80 280-80t-56.5-23.5Zm400 0Q600-127 600-160t23.5-56.5Q647-240 680-240t56.5 23.5Q760-193 760-160t-23.5 56.5Q713-80 680-80t-56.5-23.5ZM246-720l96 200h280l110-200H246Zm-38-80h590q23 0 35 20.5t1 41.5L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68-39.5t-2-78.5l54-98-144-304H40v-80h130l38 80Zm134 280h280-280Z"/>
+              </svg>
+            </span>
+          </a>
+          <a href="#" class="navbar-item" aria-label="Perfil">
+            <span class="icon is-medium">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" width="36" height="36" fill="currentColor" aria-hidden="true">
+                <path d="M480-480q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47ZM160-160v-112q0-34 17.5-62.5T224-378q62-31 126-46.5T480-440q66 0 130 15.5T736-378q29 15 46.5 43.5T800-272v112H160Z"/>
+              </svg>
+            </span>
+          </a>
+        </div>
+      </div>
+    </nav>
 
-            <div class="field">
-                <div class="control has-icons-left">
-                    <input type="text"
-                        id="buscador"
-                        class="input"
-                        type="search"
-                        placeholder="Buscar productos...">
-                    <span class="icon is-small is-left has-text-grey">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" style="fill: white;">
-                            <path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/>
-                        </svg>
-                    </span>
-            
-                </div>
-            </div>
-        </form>
+   <!-- barra de categorías -->
 
-
-        <!-- barra de categorías -->
-
+    <nav aria-label="Categorías" class="px-4 pb-4">
+      <div class="columns is-mobile is-variable is-2 mb-0">
+        <div class="column">
+          <a href="#" class="button is-outlined is-dark is-fullwidth">Mousepad</a>
+        </div>
+        <div class="column">
+          <a href="#" class="button is-outlined is-dark is-fullwidth">Teclado</a>
+        </div>
+        <div class="column">
+          <a href="#" class="button is-outlined is-dark is-fullwidth">Mouse</a>
+        </div>
+        <div class="column">
+          <a href="#" class="button is-outlined is-dark is-fullwidth">Auriculares</a>
+        </div>
+      </div>
+    </nav>
+    </header>
 
         <!-- banner -->
 
-
-
-        
     <main>
         <!-- sección de productos en oferta -->
 
@@ -118,7 +116,6 @@
      <footer>
 
 
-     </footer>
 
         <!-- SECCIÓN informacion de la pagina -->
 
@@ -143,8 +140,6 @@
 
 
         <!-- Pie de página, derechos de autor -->
-
-
-    </header>
-</body>     
+     </footer>
+  </body>     
 </html>
