@@ -3,6 +3,7 @@ Framework Tailwind / Bulda
 
 ![GitHub Tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![GitHub Bulma](https://img.shields.io/badge/Bulma-00D1B2?style=for-the-badge&logo=Bulma&logoColor=white)
+![GitHub HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 
 
 > Trabajo de investigacion y produccion comparativa de los Frameworks Tailwind y Bulma.
