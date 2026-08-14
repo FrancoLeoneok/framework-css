@@ -91,161 +91,178 @@
         </div>
       </div>
     </nav>
-    </header>
+  </header>
 
+    <!-- Detalle del producto Auriculares Logitech G PRO X2 Wireless -->
+  <section class="section has-background-light py-6">
+    <div class="container">
+      <div class="columns is-desktop is-variable is-6">
 
-    <!-- detalle del producto Auriculares Logitech G PRO X2 Wireless, mas información -->
-
-  <section class="py-20 bg-gray-50">
-    <div class="container mx-auto px-4">
-      <div class="flex flex-col lg:flex-row gap-10">
-
-        <!-- Columna izquierda -->
-        <div class="lg:w-1/2">
+        <!-- Columna izquierda: Imágenes -->
+        <div class="column is-6">
 
           <!-- Imagen principal -->
-          <div class="bg-white rounded-xl shadow-lg p-4">
+          <div class="box p-4">
             <a href="#">
-              <img
-                src="Img/img-productos/img-auriculares/Imganen_Auriculares_Logitech_PRO_X_2_Wireless.jpg"
-                alt="Auriculares Logitech G PRO X2 Wireless"
-                class="w-full h-auto object-contain">
+              <figure class="image">
+                <img
+                  src="Img/img-productos/img-auriculares/Imganen_Auriculares_Logitech_PRO_X_2_Wireless.jpg"
+                  alt="Auriculares Logitech G PRO X2 Wireless">
+              </figure>
             </a>
           </div>
 
-          <!-- Miniaturas -->
-          <ul class="flex justify-center gap-4 mt-6 flex-wrap">
-            <li>
+          <!-- Miniaturas (is-96x96 equivale a w-24 h-24 de Tailwind) -->
+          <div class="is-flex is-justify-content-center is-flex-wrap-wrap mt-5">
+            <figure class="image is-96x96 mx-2 mb-2">
               <img
                 src="Img/img-productos/img-auriculares/detalle_producto/detalle_producto/compragamer_Imganen_general_39727_Auriculares_Logitech_PRO_X_2_2.jpg"
                 alt="Vista 1"
-                class="w-24 h-24 object-cover rounded-lg border-2 border-gray-300 cursor-pointer hover:border-indigo-500 transition">
-            </li>
+                class="is-rounded">
+            </figure>
 
-            <li>
+            <figure class="image is-96x96 mx-2 mb-2">
               <img
                 src="Img/img-productos/img-auriculares/detalle_producto/detalle_producto/compragamer_Imganen_general_39728_Auriculares_Logitech_PRO_X_2_3.jpg"
                 alt="Vista 2"
-                class="w-24 h-24 object-cover rounded-lg border-2 border-gray-300 cursor-pointer hover:border-indigo-500 transition">
-            </li>
+                class="is-rounded">
+            </figure>
 
-            <li>
+            <figure class="image is-96x96 mx-2 mb-2">
               <img
                 src="Img/img-productos/img-auriculares/detalle_producto/detalle_producto/compragamer_Imganen_general_39729_Auriculares_Logitech_PRO_X_2_4.jpg"
                 alt="Vista 3"
-                class="w-24 h-24 object-cover rounded-lg border-2 border-gray-300 cursor-pointer hover:border-indigo-500 transition">
-            </li>
-          </ul>
+                class="is-rounded">
+            </figure>
+          </div>
 
         </div>
 
-        <!-- Columna derecha -->
-        <div>
+        <!-- Columna derecha: Información del Producto -->
+        <div class="column is-6">
 
-          <div>
+          <div class="box p-6">
 
-            <h1>
+            <!-- Título del producto -->
+            <h1 class="title is-3 has-text-dark mb-4">
               Auriculares Logitech G PRO X2 Wireless Lightspeed
               2.4Ghz Bluetooth Black Audio 7.1 50Hs PC/PS4/PS5
             </h1>
 
-            <div>
-              <a href="#">SKU: 981-001262</a> <br>
-              <a href="#">ID: 15659</a>
+            <!-- SKU / ID -->
+            <div class="is-size-7 has-text-grey mb-4">
+              <p><a href="#" class="has-text-grey">SKU: 981-001262</a></p>
+              <p><a href="#" class="has-text-grey">ID: 15659</a></p>
             </div>
 
-            <!-- Precio -->
-            <div>
-              <p>
-                $370.000
+            <!-- Precios -->
+            <div class="mb-4">
+              <p class="is-size-7 has-text-grey-light mb-1">
+                <del>$370.000</del>
               </p>
 
-              <div>
-                <p>
-                  $185.000
-                </p>
-              </div>
+              <p class="title is-3 has-text-dark mb-0">
+                $185.000
+              </p>
             </div>
 
             <!-- Stock -->
-            <p>✔ Stock disponible</p>
+            <p class="has-text-success has-text-weight-semibold mb-5">
+              ✔ Stock disponible
+            </p>
 
-            <a href="#">
+            <!-- Botón de Compra -->
+            <a
+              href="#"
+              class="button is-link is-medium is-fullwidth has-text-weight-semibold mb-5">
               Comprar ahora
             </a>
 
             <!-- Medios de pago -->
-            <div>
-              <h3>💳 Medios de pago</h3>
-
-              <p>
+            <div class="box is-shadowless has-background-light p-4 mb-4">
+              <h3 class="subtitle is-6 has-text-weight-semibold mb-2">💳 Medios de pago</h3>
+              <p class="has-text-grey-dark">
                 Tarjetas de crédito, débito y transferencia.
-                <a
-                  href="#">
-                  Ver todos los métodos
-                </a>
+                <a href="#" class="has-text-link">Ver todos los métodos</a>
               </p>
             </div>
 
             <!-- Garantía -->
-            <div>
-              <h3>🚚 Garantías y envíos</h3>
-              <p>
+            <div class="box is-shadowless has-background-light p-4 mb-4">
+              <h3 class="subtitle is-6 has-text-weight-semibold mb-2">🚚 Garantías y envíos</h3>
+              <p class="has-text-grey-dark">
                 Garantía oficial de 12 meses.
                 Realizamos envíos a todo el país.
-                <a href="#">
-                  Ver costo de envío
-                </a>
+                <a href="#" class="has-text-link">Ver costo de envío</a>
               </p>
             </div>
 
             <!-- Términos -->
-            <div>
-              <a href="#">
+            <div class="box is-shadowless has-background-light p-4 mb-0">
+              <a href="#" class="has-text-link">
                 📄 Términos y condiciones
               </a>
             </div>
+
           </div>
+
         </div>
       </div>
     </div>
   </section>
 
-      <!-- Especificaciones ocho puntos con detalles -->
-  <section>
-    <div>
 
-      <div>
-        <h2>
-          Caracteristicas Generales
+  <!-- Especificaciones técnicas -->
+  <section class="section has-background-light pt-0 pb-6">
+    <div class="container">
+
+      <div class="box p-6">
+        <h2 class="title is-4 has-text-centered mb-6">
+          Características Generales
         </h2>
 
-        <div>
-          <div>Compatibilidad</div>
-          <div >PC, PS4, PS5</div>
+        <div class="content">
+          <div class="mb-3">
+            <p class="has-text-weight-semibold has-text-dark mb-0">Compatibilidad</p>
+            <p class="has-text-grey">PC, PS4, PS5</p>
+          </div>
 
-          <div>Audio</div>
-          <div>Sonido envolvente 7.1</div>
+          <div class="mb-3">
+            <p class="has-text-weight-semibold has-text-dark mb-0">Audio</p>
+            <p class="has-text-grey">Sonido envolvente 7.1</p>
+          </div>
 
-          <div>Duración de la batería</div>
-          <div>Hasta 50 horas</div>
+          <div class="mb-3">
+            <p class="has-text-weight-semibold has-text-dark mb-0">Duración de la batería</p>
+            <p class="has-text-grey">Hasta 50 horas</p>
+          </div>
 
-          <div>Micrófono</div>
-          <div>Micrófono con cancelación de ruido extraíble</div>
+          <div class="mb-3">
+            <p class="has-text-weight-semibold has-text-dark mb-0">Micrófono</p>
+            <p class="has-text-grey">Micrófono con cancelación de ruido extraíble</p>
+          </div>
 
-          <div>Control de audio</div>
-          <div>Controles en el auricular para volumen y micrófono</div>
+          <div class="mb-3">
+            <p class="has-text-weight-semibold has-text-dark mb-0">Control de audio</p>
+            <p class="has-text-grey">Controles en el auricular para volumen y micrófono</p>
+          </div>
 
-          <div>Diseño</div>
-          <div>Diadema ajustable y almohadillas viscoelásticas</div>
+          <div class="mb-3">
+            <p class="has-text-weight-semibold has-text-dark mb-0">Diseño</p>
+            <p class="has-text-grey">Diadema ajustable y almohadillas viscoelásticas</p>
+          </div>
 
-          <div >Colores disponibles</div>
-          <div >Negro / Blanco</div>
-
+          <div class="mb-3">
+            <p class="has-text-weight-semibold has-text-dark mb-0">Colores disponibles</p>
+            <p class="has-text-grey">Negro / Blanco</p>
+          </div>
         </div>
+
       </div>
+
     </div>  
   </section>
+
       
         <!-- Footer -->
   <footer class="footer has-background-link-dark has-text-grey-light py-6">
