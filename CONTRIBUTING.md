@@ -16,7 +16,6 @@ Se trabaja principalmente sobre estos archivos:
 ### 2.1. Falta hacer:
 - cambiar tipo de lectra en index.html bulma
 - separar productos 
-- hacer detalle_producto.html bulma
 - hacer mas chicos las img de prodcutos destacados
 
 
