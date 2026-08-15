@@ -13,28 +13,12 @@ Se trabaja principalmente sobre estos archivos:
 - mismo formato de comentarios que version-con-tailwind
 - no modificar version-con-tailwind
 
-### 2.1. Falta hacer:
+### 2. Falta hacer:
 - cambiar tipo de lectra en index.html bulma
-- separar productos 
-- hacer mas chicos las img de prodcutos destacados
 
 
 
-
-## 3. Flujo sugerido de trabajo
-
-1. abrir `version-con-bulma/index.html`
-2. completar estructura principal del header
-3. completar ofertas y productos
-4. validar secciones de reviews y FAQ
-5. cerrar footer
-6. abrir `version-con-bulma/detalle_producto.html`
-7. completar galería y panel de compra
-8. cerrar especificaciones y footer
-9. probar en navegador
-10. revisar que no haya rutas rotas ni errores visuales
-
-## 4. Criterio final
+## 3. Criterio final
 
 La tarea está terminada cuando la versión Bulma:
 
